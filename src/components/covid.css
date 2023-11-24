@@ -1,0 +1,55 @@
+mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 12px;
+    padding: 4px;
+    text-decoration: solid;
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_main {
+    height: 150px;
+    width: 300px;
+    margin: 65px;
+    border-radius: 12px;
+    align-items: center;
+    background-color: rgb(75, 8, 220);
+}
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.card_total_card_small{
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+}
